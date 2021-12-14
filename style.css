@@ -1,0 +1,58 @@
+/* Import Open Sans font from Google Font */
+
+/* Write your CSS Code here */
+*{
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.item-01{
+	
+}
+
+.all-item{
+	width: 90%;
+	display:flex;
+	justify-content: center;
+	margin:auto;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+
+}
+h3{
+	margin-top: 35px;
+	color:rgb(128, 128, 128);
+}
+
+p{
+ 	margin:35px 0px;
+ 	color:rgb(11,112,249);
+}
+
+h2{
+	margin:35px 0px;
+ 	color:rgb(11,112,249);
+}
+.item-01, .item-02, .item-03{
+	width: 30%;
+	text-align: center;
+}
+button{
+
+	font-size: 22px;
+	padding: 16px 22px;
+	border:1px solid rgb(11,112,249);
+	background: transparent;
+	border-radius: 15px;
+	color:rgb(11,112,249);
+	text-transform: uppercase;
+
+}
+
+button:hover{
+	background:rgb(11,112,249);
+	color:white;
+	transition: 0.5s;
+}
+
